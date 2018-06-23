@@ -1,0 +1,125 @@
+version: 8.01 E:/05-Coref/Coreference Final Output/Tools and Codes/codes/Test - gold/test gold proc 0-100-zi/zi-test-scorer/lib/CorScorer.pm
+
+METRIC muc:
+====> (test); :
+File (test); :
+Entity 0: (7,7) (18,19) (72,72) (85,85)
+Entity 1: (8,8) (32,33) (55,61) (69,70)
+====> (test); :
+File (test); :
+Entity 0: (32,33) (69,70)
+(test); :
+Total key mentions: 8
+Total response mentions: 2
+Strictly correct identified mentions: 2
+Partially correct identified mentions: 0
+No identified: 6
+Invented: 0
+Recall: (1 / 6) 16.66%	Precision: (1 / 1) 100%	F1: 28.57%
+--------------------------------------------------------------------------
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2 / 8) 25%	Precision: (2 / 2) 100%	F1: 40%
+--------------------------------------------------------------------------
+Coreference: Recall: (1 / 6) 16.66%	Precision: (1 / 1) 100%	F1: 28.57%
+--------------------------------------------------------------------------
+
+METRIC bcub:
+====> (test); :
+File (test); :
+Entity 0: (7,7) (18,19) (72,72) (85,85)
+Entity 1: (8,8) (32,33) (55,61) (69,70)
+====> (test); :
+File (test); :
+Entity 0: (32,33) (69,70)
+(test); :
+Total key mentions: 8
+Total response mentions: 2
+Strictly correct identified mentions: 2
+Partially correct identified mentions: 0
+No identified: 6
+Invented: 0
+Recall: (1 / 8) 12.5%	Precision: (2 / 2) 100%	F1: 22.22%
+--------------------------------------------------------------------------
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2 / 8) 25%	Precision: (2 / 2) 100%	F1: 40%
+--------------------------------------------------------------------------
+Coreference: Recall: (1 / 8) 12.5%	Precision: (2 / 2) 100%	F1: 22.22%
+--------------------------------------------------------------------------
+
+METRIC ceafm:
+====> (test); :
+File (test); :
+Entity 0: (7,7) (18,19) (72,72) (85,85)
+Entity 1: (8,8) (32,33) (55,61) (69,70)
+====> (test); :
+File (test); :
+Entity 0: (32,33) (69,70)
+(test); :
+Total key mentions: 8
+Total response mentions: 2
+Strictly correct identified mentions: 2
+Partially correct identified mentions: 0
+No identified: 6
+Invented: 0
+Recall: (2 / 8) 25%	Precision: (2 / 2) 100%	F1: 40%
+--------------------------------------------------------------------------
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2 / 8) 25%	Precision: (2 / 2) 100%	F1: 40%
+--------------------------------------------------------------------------
+Coreference: Recall: (2 / 8) 25%	Precision: (2 / 2) 100%	F1: 40%
+--------------------------------------------------------------------------
+
+METRIC ceafe:
+====> (test); :
+File (test); :
+Entity 0: (7,7) (18,19) (72,72) (85,85)
+Entity 1: (8,8) (32,33) (55,61) (69,70)
+====> (test); :
+File (test); :
+Entity 0: (32,33) (69,70)
+(test); :
+Total key mentions: 8
+Total response mentions: 2
+Strictly correct identified mentions: 2
+Partially correct identified mentions: 0
+No identified: 6
+Invented: 0
+Recall: (0.666666666666667 / 2) 33.33%	Precision: (0.666666666666667 / 1) 66.66%	F1: 44.44%
+--------------------------------------------------------------------------
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2 / 8) 25%	Precision: (2 / 2) 100%	F1: 40%
+--------------------------------------------------------------------------
+Coreference: Recall: (0.666666666666667 / 2) 33.33%	Precision: (0.666666666666667 / 1) 66.66%	F1: 44.44%
+--------------------------------------------------------------------------
+
+METRIC blanc:
+====> (test); :
+File (test); :
+Entity 0: (7,7) (18,19) (72,72) (85,85)
+Entity 1: (8,8) (32,33) (55,61) (69,70)
+====> (test); :
+File (test); :
+Entity 0: (32,33) (69,70)
+:
+Total key mentions: 8
+Total response mentions: 2
+Strictly correct identified mentions: 2
+Partially correct identified mentions: 0
+No identified: 6
+Invented: 0
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2 / 8) 25%	Precision: (2 / 2) 100%	F1: 40%
+--------------------------------------------------------------------------
+
+Coreference:
+Coreference links: Recall: (1 / 12) 8.33%	Precision: (1 / 1) 100%	F1: 15.38%
+--------------------------------------------------------------------------
+Non-coreference links: Recall: (0 / 16) 0%	Precision: (0 / 0) 0%	F1: 0%
+--------------------------------------------------------------------------
+BLANC: Recall: (0.0416666666666667 / 1) 4.16%	Precision: (0.5 / 1) 50%	F1: 7.69%
+--------------------------------------------------------------------------

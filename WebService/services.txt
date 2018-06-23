@@ -1,0 +1,6 @@
+http://185.130.78.112/ner/NER_WS.asmx
+http://185.130.78.112/pos/Tagger_WebService.asmx
+http://185.130.78.112/depparser/DependencyParser_WS.asmx
+http://185.130.78.112/preprocess/PreprocessWebService.asmx
+
+http://185.130.78.112/coref

@@ -1,0 +1,1 @@
+svm_classify train-numbersAsWordsSVM1.dat model-withWords Res-kham.txt
