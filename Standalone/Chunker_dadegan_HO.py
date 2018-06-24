@@ -5,7 +5,7 @@ import os
 from zeep import Client
 # def SRL(fiii,File,Boundary_Sentences):
 def SRL(normalizedText,preprocessWSDL,taggerWSDL,depWSDL):
-    # path_out="SHADI_Chunks"
+    # path_out="SI_Chunks"
     # subprocess.call(['spellchecker-exe.exe','-N',File,path_out+'\\'+'Data_normalized.txt'])
     # inp=codecs.open(path_out+'\\'+'Data_normalized.txt', 'r', 'utf-8')
     # inp=inp.readlines()
