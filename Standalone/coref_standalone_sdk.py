@@ -1,5 +1,5 @@
 # coding=utf-8
-__author__ = 'Shadi & HO'
+__author__ = 'RCDAT'
 ### import
 import Chunker_dadegan_HO
 # import timeit
@@ -33,7 +33,7 @@ folderNum = '1'
 # SVMmodel = 'model_90-100'
 SVMmodel = 'model-shab'
 SVMPlace = 'svm_light_windows64'
-Dict = 'Fina_shadi_dict.txt'
+Dict = 'Final_dict.txt'
 folder_out = 'outDir'
 
 DependencyParserWSAddr = ''
@@ -668,7 +668,7 @@ def preprocess(words,option):
     # words = splChcK_and_tokeniz()
 
     Tags = POS_100(file, words, POS100)
-    ########################################################### pro and shadi chunk
+    ########################################################### pro and chunk
     outPros = PRO_finder(Tags, words, pros)  ### kolan jaye pos100 bayad az pro estefade beshe
     outAnim = Animacy(file, outPros, Anim)
     outNER = NER(file, outPros, POS100NER)
