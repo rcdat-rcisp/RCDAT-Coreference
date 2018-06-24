@@ -1,10 +1,9 @@
-برای این برنامه باید پایتون 3 به بالا روی سیستم نصب شده باشد.
-1- فایل‌های پیش پردازش‌شده را در آدرس finalcorpus2/p1 قرار دهید. 
-2- برنامه را اجرا کنید.
-3- مدل تولید شده در آدرس featureFiles_2 قرار دارد. 
+install python3
+1- Put preprocessed train files in "finalcorpus2/p1" (input: File name, sentence number, token+other features such as POS,Animacy,...and Coref Tags in ConLL format), example is presented in P1 directory.
+2- Run the program (train.py)
+3- The model will be in "featureFiles_2"  
 
-نکته: هر تعداد فایل که بخواهید میتوانید در فولدر p1 قرار دهید.
-نکته: پس از آموزش یک مدل در صورتی که مدل جدیدی بخواهید آموزش دهید 3 فایل باید از فولدر featureFiles_2 حذف شوند. 
+For training new model the following 3 files must be deleted from featureFiles_2 dirctory: 
 train-numbersAsWordsSVM1.dat
 train-withoutWords_SVM1.txt
 withWord1.txt
