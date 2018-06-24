@@ -1,4 +1,4 @@
-__author__ = 'Shadi'
+__author__ = 'RCDAT'
 #____________________ imports!_______________________
 import codecs
 import os
@@ -10,8 +10,8 @@ import  timeit
 folderNum='1'
 inputCorpus='finalCorpus\\p'+folderNum
 outPutFiles='featureFiles_2'
-main_dict='Fina_shadi_dict.txt' ### old dictionary with many many words
-#main_dict='Fina_shadi_dict.txt' # new dictionary, just train words
+main_dict='Final_dict.txt' ### old dictionary with many many words
+#main_dict='Final_dict.txt' # new dictionary, just train words
 theOutPut='train-withoutWords_SVM'+folderNum+'.txt'
 theOutPut_1='withWord'+folderNum+'.txt'
 
