@@ -10,17 +10,24 @@ The RCDAT-Coreference directory contains 4 output of Coreference resolution proj
 │ └── Features-coref
 |    └── FeatureFiles
 |    └── FinalCorpus
+
 ├── Evaluation
 │ └── lib
+
 ├── Standalone 
 │ ├── outDir
 | └── SVM-Light-Windows64
+
 └── Webservice
 
 ### Sub-directories Specification
 Features-coref: Contains train files and produced features.
+
 lib: Contains libraries for scorer.
+
 outDir: output directory.
+
 SVM-Light-Windows64: SVM binaries.
+
 
 Details and guidelines are presented in each directory.
