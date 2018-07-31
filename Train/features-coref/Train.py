@@ -9,7 +9,7 @@ import  timeit
 
 folderNum='1'
 inputCorpus='finalCorpus\\p'+folderNum
-outPutFiles='featureFiles'
+outPutFiles='featureFiles_2'
 main_dict='Final_dict.txt' ### old dictionary with many many words
 #main_dict='Final_dict.txt' # new dictionary, just train words
 theOutPut='train-withoutWords_SVM'+folderNum+'.txt'
