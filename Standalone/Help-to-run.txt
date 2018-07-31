@@ -1,3 +1,0 @@
-You need:
-python 2.7
-pip install SOAPpy
