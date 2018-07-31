@@ -1,5 +1,5 @@
 
-for running the code you need:
+For running the code you need:
 python 2.7
 pip install SOAPpy
 
